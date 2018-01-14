@@ -1,0 +1,99 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: yellow;
+    background-color: #66cdaa;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+
+<!-- Ini Settingan Menu -->
+
+#wb_CssMenu1
+{
+   border: 0px #DCDCDC solid;
+   background-color: transparent;
+}
+#wb_CssMenu1 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#wb_CssMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 4px 0px 0px;
+   width: 80px;
+}
+#wb_CssMenu1 a
+{
+   display: block;
+   float: left;
+   color: #eeeeee;
+   border: 0px #FFFFFF solid;
+   background-color: #C00000;
+   background-image: none;
+   font-family: Arial;
+   font-size: 15px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   width: 70px;
+   height: 28px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   line-height: 28px;
+   text-align: center;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover, #wb_CssMenu1 .active
+{
+   color: #FFFFFF;
+   background-color: #000000;
+   background-image: none;
+   border: 0px #C0C0C0 solid;
+}
+#wb_CssMenu1 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_CssMenu1 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_CssMenu1 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
